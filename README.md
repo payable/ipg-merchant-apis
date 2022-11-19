@@ -117,6 +117,8 @@ Error Responses:
 }
 ```
 
+<hr/>
+
 #### PHP Example
 
 ```php
