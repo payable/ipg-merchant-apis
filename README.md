@@ -19,7 +19,9 @@ Production: https://payable-apps.web.app/ipg/production
 
 ```http
 POST /
+Content-Type: application/json
 ```
+> The form body is also acceptable when posting a form `application/x-www-form-urlencoded`
 
 ```json
 {
