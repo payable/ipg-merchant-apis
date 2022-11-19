@@ -90,6 +90,17 @@ Success Responses:
 }
 ```
 
+Error Responses:
+
+```json
+{
+    "status": 404,
+    "error": {
+        "err-message": "PENDING"
+    }
+}
+```
+
 Once the webhook is triggered:
 
 ```json
@@ -103,17 +114,6 @@ Once the webhook is triggered:
         "paymentType": 1,
         "paymentScheme": "CHINA_UNIONPAY",
         "txType": "ONE_TIME_PAYMENT"
-    }
-}
-```
-
-Error Responses:
-
-```json
-{
-    "status": 404,
-    "error": {
-        "err-message": "PENDING"
     }
 }
 ```
