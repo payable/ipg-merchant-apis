@@ -80,7 +80,7 @@ Error Response:
 }
 ```
 
-Payment Page:
+> Payment Page
 
 ![](/images/payment_page.png)
 
