@@ -8,7 +8,7 @@ PHP, JavaScript, Java, Kotlin, Flutter, React Native
 
 Server Environments:
 
-```
+```http
 Sandbox: https://payable-apps.web.app/ipg/sandbox
 Production: https://payable-apps.web.app/ipg/production
 ```
