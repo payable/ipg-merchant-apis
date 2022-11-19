@@ -118,6 +118,37 @@ Error Responses:
 }
 ```
 
+If any failure transaction attempts
+
+```json
+{
+    "status": 404,
+    "error": {
+        "err-message": "PENDING"
+    },
+    "failures": [
+        {
+            "payableTransactionId": "685e76b6-67a1-11ed-a333-e56ff946e0a9",
+            "paymentMethod": 1,
+            "payableOrderId": "oid-24cc0778-67a1-11ed-b7f5-8bd93b27f26c",
+            "statusMessage": "FAILURE",
+            "paymentType": 1,
+            "paymentScheme": "MASTERCARD",
+            "txType": "ONE_TIME_PAYMENT"
+        },
+        {
+            "payableTransactionId": " c3ff309b-67a1-11ed-a333-51569715c33f",
+            "paymentMethod": " 1",
+            "payableOrderId": " oid-8f7aaaea-67a1-11ed-b7f5-99d7358edafa",
+            "statusMessage": " SUCCESS",
+            "paymentType": " 1",
+            "paymentScheme": " CHINA_UNIONPAY",
+            "txType": " ONE_TIME_PAYMENT"
+        }
+    ]
+}
+```
+
 #### 3. Webhook Response
 
 ```json
