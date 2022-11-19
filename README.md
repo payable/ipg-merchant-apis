@@ -151,7 +151,7 @@ Error Responses:
 }
 ```
 
-> If you miss providing the `returnUrl`, the default status page will be called as below at the end of the transaction.
+> If you miss providing the `returnUrl` the default status page will be called at the end of the transaction as below.
 
 ![](/images/payment_status_page.png)
 
