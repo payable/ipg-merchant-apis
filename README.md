@@ -118,7 +118,7 @@ Error Responses:
 }
 ```
 
-If any failure transaction attempts
+If any failure transaction attempts:
 
 ```json
 {
