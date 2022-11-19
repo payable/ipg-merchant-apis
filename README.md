@@ -4,6 +4,15 @@ PAYable Internet Payment Gateway to any Website / WordPress Site / Mobile
 
 JavaScript, Java, Kotlin, Flutter, React Native
 
+Server Environments:
+
+```
+Sandbox: https://payable-apps.web.app/ipg/sandbox
+Production: https://payable-apps.web.app/ipg/production
+```
+
+<hr/>
+
 #### 1. Generate Payment URL
 
 URL: `https://payable-apps.web.app/ipg/sandbox`
