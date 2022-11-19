@@ -18,7 +18,7 @@ Production: https://payable-apps.web.app/ipg/production
 #### 1. Generate Payment URL
 
 ```http
-POST /ipg/sandbox
+POST /
 ```
 
 ```json
@@ -85,7 +85,7 @@ Error Response:
 #### 2. Check Payment Status
 
 ```http
-GET /ipg/sandbox/status
+GET /status
 ```
 
 ```text
