@@ -89,7 +89,7 @@ Success Responses:
 }
 ```
 
-Once the webhook triggered:
+Once the webhook is triggered:
 
 ```json
 {
