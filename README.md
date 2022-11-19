@@ -45,6 +45,8 @@ Body: `json`
 }
 ```
 
+![](/images/payment_page.png)
+
 Success Response:
 
 ```json
@@ -148,6 +150,8 @@ Error Responses:
     ]
 }
 ```
+
+![](/images/payment_status_page.png)
 
 #### 3. Webhook Response
 
