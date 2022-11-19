@@ -101,7 +101,7 @@ Error Responses:
 }
 ```
 
-Once the webhook is triggered:
+ > Once the webhook is triggered:
 
 ```json
 {
@@ -118,7 +118,7 @@ Once the webhook is triggered:
 }
 ```
 
-If any failure transaction attempts:
+> Once the webhook is triggered with failure transaction attempts:
 
 ```json
 {
