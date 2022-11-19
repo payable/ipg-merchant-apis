@@ -4,8 +4,11 @@ PAYable Internet Payment Gateway to any Website / WordPress Site / Mobile
 JavaScript, Java, Kotlin, Flutter, React Native
 
 #### 1. Generate Payment URL
+
 URL : `https://payable-apps.web.app/ipg/sandbox`
+
 Body: `json`
+
 ```json
 {
     "invoiceId": "INVOICE_ID",
@@ -40,7 +43,9 @@ Body: `json`
     "shippingAddressStateProvince": "Western"
 }
 ```
-Response:
+
+Success Response:
+
 ```json
 {
     "status": "PENDING",
@@ -50,16 +55,59 @@ Response:
 }
 ```
 
+Error Response:
+
+```json
+{
+    "status": 400,
+    "error": {
+        "err-message": "invalid Authentication"
+    }
+}
+```
+
 <hr/>
 
 #### 2. Check Payment Status
 
 URL: `https://payable-apps.web.app/ipg/sandbox/status`
+
 Body: `GET`
-```json
+
+```text
 uid, statusIndicator
 ```
-Response:
+
+Success Responses:
+
+```json
+{
+    "status": 200,
+    "data": {
+        "statusMessage": "SUCCESS"
+    }
+}
+```
+
+Once the webhook triggered:
+
+```json
+{
+    "status": 200,
+    "data": {
+        "payableTransactionId": "8edd851d-67bf-11ed-a017-ffee2c49f453",
+        "paymentMethod": 1,
+        "payableOrderId": "oid-4d04fb6d-67bf-11ed-90dd-479eff8ea93a",
+        "statusMessage": "SUCCESS",
+        "paymentType": 1,
+        "paymentScheme": "CHINA_UNIONPAY",
+        "txType": "ONE_TIME_PAYMENT"
+    }
+}
+```
+
+Error Responses:
+
 ```json
 {
     "status": 404,
@@ -69,12 +117,4 @@ Response:
 }
 ```
 
-Status:
-
-* 1 - Success
-* 2 - Duplicate
-* 3 - Failed
-
 #### PHP Example
-
-Authors: Aslam
