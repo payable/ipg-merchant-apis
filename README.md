@@ -118,6 +118,20 @@ Error Responses:
 }
 ```
 
+#### 3. Webhook Response
+
+```json
+{
+    "payableTransactionId": "8edd851d-67bf-11ed-a017-ffee2c49f453",
+    "paymentMethod": 1,
+    "payableOrderId": "oid-4d04fb6d-67bf-11ed-90dd-479eff8ea93a",
+    "statusMessage": "SUCCESS",
+    "paymentType": 1,
+    "paymentScheme": "CHINA_UNIONPAY",
+    "txType": "ONE_TIME_PAYMENT"
+}
+```
+
 <hr/>
 
 #### PHP Example
