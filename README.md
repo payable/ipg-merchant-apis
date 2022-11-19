@@ -5,7 +5,7 @@ JavaScript, Java, Kotlin, Flutter, React Native
 
 #### 1. Generate Payment URL
 
-URL : `https://payable-apps.web.app/ipg/sandbox`
+URL: `https://payable-apps.web.app/ipg/sandbox`
 
 Body: `json`
 
