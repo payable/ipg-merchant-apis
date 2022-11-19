@@ -45,8 +45,6 @@ Body: `json`
 }
 ```
 
-![](/images/payment_page.png)
-
 Success Response:
 
 ```json
@@ -68,6 +66,8 @@ Error Response:
     }
 }
 ```
+
+![](/images/payment_page.png)
 
 <hr/>
 
@@ -150,6 +150,8 @@ Error Responses:
     ]
 }
 ```
+
+> If you miss providing the `returnUrl`, the default status page will be called as below at the end of the transaction.
 
 ![](/images/payment_status_page.png)
 
