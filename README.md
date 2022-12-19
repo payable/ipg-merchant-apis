@@ -1,6 +1,6 @@
 # PAYable IPG Merchant APIs
 
-PAYable Internet Payment Gateway to any Website / WordPress Site / Mobile
+PAYable Internet Payment Gateway to any Website / WordPress Site / Mobile / Flutter
 
 PHP, JavaScript, Java, Kotlin, Flutter, React Native
 
